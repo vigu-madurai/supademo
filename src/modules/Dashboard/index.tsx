@@ -27,7 +27,7 @@ const Dashboard = ({ data }: { data: DashboardItem[] }) => {
         <div>
           <YoutubeEmbed videoId={activeVideo} />
         </div>
-        <div>
+        <div className='flex flex-wrap items-center justify-between'>
           {dashboardData.map((item) => {
             const { etag, snippet, id } = item;
             return (
