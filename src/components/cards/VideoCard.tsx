@@ -62,7 +62,7 @@ const VideoCard = ({
   } = thumbnails[thumbnailType];
   return (
     <div
-      className='mx-[0] my-4 flex h-[170px] w-full cursor-pointer rounded-[5px] [box-shadow:0_1px_3px_rgba(0,0,0,0.12),_0_1px_2px_rgba(0,0,0,0.24)] hover:[box-shadow:0_14px_28px_rgba(0,0,0,0.25),_0_10px_10px_rgba(0,0,0,0.22)] md:!w-[48%]'
+      className='hover:[box-shadow:0_14px_28px_rgba(0,0,0,0.25),_0_10px_10px_rgba(0, 0, 0, 0.263)] mx-[0] my-4 flex h-[170px] w-full cursor-pointer rounded-[5px] [box-shadow:0_1px_3px_rgba(0,0,0,0.12),_0_1px_2px_rgba(0,0,0,0.24)] md:!w-[48%]'
       onClick={() => handleActiveVideo(id)}
     >
       <div className='relative flex min-w-[30%]'>

@@ -27,6 +27,9 @@ const Dashboard = ({ data }: { data: DashboardItem[] }) => {
         <div>
           <YoutubeEmbed videoId={activeVideo} />
         </div>
+        <div className='my-4 rounded-full bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 p-1'></div>
+        <div>Input</div>
+        <div>Pagination</div>
         <div className='flex flex-wrap items-center justify-between'>
           {dashboardData.map((item) => {
             const { etag, snippet, id } = item;
@@ -43,6 +46,7 @@ const Dashboard = ({ data }: { data: DashboardItem[] }) => {
               />
             );
           })}
+          didi
         </div>
       </div>
     </>
