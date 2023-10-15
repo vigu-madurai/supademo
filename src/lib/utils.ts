@@ -5,3 +5,11 @@ import { twMerge } from 'tailwind-merge';
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
+
+export const fuzzySearch = (data: any = [], search = '', key = 'title') => {
+  return data.filter((item: any) => {
+    const { snippet } = item;
+    const searchText = snippet?.[key]?.toLowerCase();
+    return searchText.indexOf(search) !== -1;
+  });
+};
