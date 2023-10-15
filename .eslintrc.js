@@ -29,6 +29,7 @@ module.exports = {
     'unused-imports/no-unused-imports': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
     'react-hooks/exhaustive-deps': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
     'unused-imports/no-unused-vars': [
       'warn',
       {
