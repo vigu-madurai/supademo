@@ -69,7 +69,7 @@ const VideoCard = ({
           className='rounded-bl-[5px] rounded-tl-[5px]'
         />
       </div>
-      <div className='w-[70%]  p-4'>
+      <div className='w-[60%] p-4 md:w-[70%]'>
         <div className='h-[44px] overflow-hidden text-[18px] font-semibold leading-[1.24]'>
           {title}
         </div>

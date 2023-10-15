@@ -17,7 +17,7 @@ const SearchInput = ({
   return (
     <div className='m-auto flex w-full max-w-lg justify-center'>
       <input
-        className='w-full rounded-md'
+        className='md:text-md w-full rounded-md text-sm'
         aria-label='Search any videos'
         placeholder='Search any videos'
         type='search'
