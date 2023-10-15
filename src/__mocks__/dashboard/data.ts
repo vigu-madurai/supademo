@@ -1120,12 +1120,18 @@ export const data: Root = {
         thumbnails: {
           default: {
             url: 'https://yt3.ggpht.com/ytc/APkrFKZsC4nMu5knbUITD1EqSDtEnCnpffaG6crR8HAQnA=s88-c-k-c0xffffffff-no-rj-mo',
+            width: 120,
+            height: 90,
           },
           medium: {
             url: 'https://yt3.ggpht.com/ytc/APkrFKZsC4nMu5knbUITD1EqSDtEnCnpffaG6crR8HAQnA=s240-c-k-c0xffffffff-no-rj-mo',
+            width: 320,
+            height: 180,
           },
           high: {
             url: 'https://yt3.ggpht.com/ytc/APkrFKZsC4nMu5knbUITD1EqSDtEnCnpffaG6crR8HAQnA=s800-c-k-c0xffffffff-no-rj-mo',
+            width: 480,
+            height: 360,
           },
         },
         channelTitle: 'Red Bull Surfing',
